@@ -10,7 +10,7 @@ const logos = [
 
 const AllLogos = () => {
     return (
-        <div className="container main-all-logos">
+        <section className="container main-all-logos">
             <div className="row">
                 {logos.map((logo, index) => (
                     <div key={index} className="col-md-3 col-sm-6 d-flex justify-content-center mb-3">
@@ -18,7 +18,7 @@ const AllLogos = () => {
                     </div>
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

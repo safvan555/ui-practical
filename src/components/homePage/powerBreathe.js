@@ -9,7 +9,7 @@ const benefits = [
 
 const PowerBreathe = () => {
     return (
-        <div className="container powerbreathe mb-4">
+        <section className="container powerbreathe">
             <div className="powerbreathe-content">
                 <h3>Discover the Hidden Power of Your Breath</h3>
                 <div className="">
@@ -40,7 +40,7 @@ const PowerBreathe = () => {
 
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

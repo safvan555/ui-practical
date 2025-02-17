@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "@/components/header/page";
 import { Spectral_SC, Nunito } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from "@/components/footer/page";
 
 export const metadata = {
   title: "Create Next App",
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${nunito.className} ${spectralSC.className}`}>
         <main className="page-wrapper">{children}</main>
-        {/* <footer>My Footer</footer> */}
+        <Footer />
       </body>
     </html>
   );

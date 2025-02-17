@@ -46,8 +46,9 @@ a {
 body {
   font-family: "Nunito", sans-serif !important;
 }
-
-h1, h2, h3, h4, h5 {
+ul {list-style: none; padding-left: 0 !important;}
+p {margin-bottom: 0 !important;}
+h1, h2, h3, h4 {
   font-family: "Spectral SC", serif;
 }
 
@@ -55,6 +56,8 @@ h3 {font-size: 2.5rem !important; font-weight: 700 !important;}
 
 h6 { font-family: "Nunito", sans-serif; font-size: 2.25rem !important;}
 h5 { font-family: "Nunito", sans-serif; font-size: 1rem !important; font-weight: 700;}
+.main-margintop {margin-top: 180px;}
+.highlight-text {color: rgba(0, 128, 128, 1);}
 
 .lucida-text {
   font-family: "Lucida Bright", "Georgia", serif;
@@ -75,7 +78,7 @@ h5 { font-family: "Nunito", sans-serif; font-size: 1rem !important; font-weight:
 .main-content {padding-bottom: 3rem;}
 .breathe-content {margin-top: 3.375rem !important;}
 .sales-content {margin-top: 2rem; color: #fff;}
-.capnotrainer-box {position: absolute; right: 0; top: 11rem;}
+.capnotrainer-box {position: absolute; right: 0; top: 10.5rem;}
 .main-content{padding-bottom: 3rem;}
 .bg-color-img {
   background-image: url('../../public/bg-color.png');
@@ -90,7 +93,6 @@ h5 { font-family: "Nunito", sans-serif; font-size: 1rem !important; font-weight:
 .main-all-logos {margin-top: 14rem;}
 
 
-
 /* powerbreathe */
 .powerbreathe-content img{ 
   width: 100%;
@@ -100,21 +102,200 @@ h5 { font-family: "Nunito", sans-serif; font-size: 1rem !important; font-weight:
 .powerbreathe-content h3 {text-align: center; margin-bottom: 1.375rem;}
 .powerbreathe {margin-top: 6.25rem;}
 .powerbreathe-bg {background-color:rgba(230, 242, 242, 1)}
-.powerbreathe-box-content p.cu-p {margin-bottom: 2.25rem;}
+.powerbreathe-box-content p.cu-p {margin-bottom: 2.25rem !important;}
 .last-content {background-color: rgba(0, 128, 128, 1); padding: 1.25rem 2.25rem; color: #fff;}
 .last-content p {margin-bottom: 0;}
+
+/* what capno */
+.thatcapno-content h2 {font-size: 3.125rem; font-weight: 700;}
+.thatcapno-content p {width: 528px;}
+.thatcapno-content {height: 360px;}
+.capno-img {position: absolute;top: 0; right: 34%;}
+.capno-list {position: absolute;right: 100px;top: 40px;}
+.capno-list li {max-width: fit-content;  background: rgba(230, 242, 242, 1); padding: 10px; border-radius: 8px; margin-bottom: 1.375rem; position: relative; z-index: 999; margin-left: -0.5rem;}
+.breathe2 {margin-left: 10rem;}
+.thatcapno-content h3,.thatcapno-content h2 {color: rgba(0, 128, 128, 1);}
+
+/* Experience  */
+.main-expi {background-color: rgba(230, 242, 242, 1);}
+.experience-content h6 {font-family: "Spectral SC", serif; font-size: 17px !important; font-weight: 700; margin-bottom: 0;}
+.experience-text {margin: 0 auto; margin-bottom: 3rem; padding-top: 6rem;}
+.experience-text h3 {color: rgba(0, 128, 128, 1);}
+.exp-imgcontent {
+  width: 368px;
+  background-color: rgba(230, 242, 242, 1);
+  padding: 20px;
+  border-radius: 8px;
+  position: absolute;
+  top: 210px;
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.3);
+}
+.exp-imgcontent p {margin-bottom: 0;}
+.exp-imgcontent span {font-weight: 700;}
+.exprin-lastimg {margin-top: 12rem;}
+
+/* How It works */
+.main-how{ background-image: url('../../public/softwarescreen.png'); background-size: 100%; padding-top: 5.5rem; background-repeat:no-repeat}
+.howitwork-content {background-color: rgba(0, 128, 128, 1); padding: 20px; margin-bottom: 1rem; color: #fff; border-radius: 8px;}
+.howitwork-content span {font-weight: 700; font-size: 20px;}
+.howit-sec {padding-bottom: 4.5rem;}
+
+/* what diff  */
+.diff-box {
+  background: #fff; 
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  border-radius: 10px;
+  padding: 25px; 
+  position: absolute;
+  left: -38px;
+  bottom: 50px;
+}
+.main-diff p {width: 528px;}
+.diff-breathe {
+  position: absolute;
+  right: 80px;
+  top: 160px;
+}
+
+/* who capno */
+.who-capno-content {
+  position: absolute;
+  bottom: 15px;
+  background: rgba(0, 128, 128, 0.65); 
+  width: 340px; 
+  padding: 20px; 
+  border-radius: 8px;
+  color: #fff;
+}
+.who-capno img{ width: 100%;}
+.who-capno-content span {font-weight: 800;}
+
+/* review */
+.review-main {padding-top: 32px;}
+.review-content .bg-review{
+  position: absolute;
+  background-color: rgba(0, 128, 128, 1); 
+  height: 92px;
+  width: 100%;
+  margin-top: 45px;
+}
+.review-box {border: 1px solid rgba(0, 128, 128, 1); border-radius: 10px; background: #fff; margin-top: 2.6rem !important; z-index: 9999;}
+.review-box .review-span {
+  border-radius: 10px;
+  background-color: rgba(230, 242, 242, 1); 
+  padding: 20px; 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: rgba(0, 128, 128, 1);
+  font-weight: 800;
+}
+
+.review-profile {display: flex; justify-content: center; margin: 1.5rem 0; gap: 1.25rem; align-items: center;}
+.review-profile h6 {font-size: 16px !important; font-weight: 700; display: flex; flex-direction: column;}
+.review-profile h6 span {font-weight: 400;}
+
+/* key feathure */
+.main-key {margin-top: 3.625rem !important;} 
+.main-key-content {display: flex; flex-direction: column;}
+.main-key-content span {font-weight: 700; margin-top: 0.5rem;}
+
+/* whatcan capno */
+.main-whatcan img {width: 100%;}
+.whatcapno-content {background: rgba(0, 128, 128, 1); position: relative; border-radius: 8px; padding: 20px; top: -10px;color: #fff;}
+.whatcapno-content span {font-size: 20px;}
+
+/* control */
+.main-control img {object-fit: contain;}
+
+/* Faqs */
+.faq-box {
+  border: 1px solid rgba(107, 181, 181, 1);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.faq-content {margin-top: 3rem !important; margin: 0 auto;}
+.faq-header svg {color: rgba(0, 128, 128, 1);}
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+.faq-header h5 {margin-bottom: 0; color: rgba(0, 128, 128, 1); font-weight: 600;}
+
+.faq-description {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+
+.faq-description.open {
+  max-height: 200px;
+  opacity: 1;
+  padding-top: 10px;
+}
+/* //journey */
+.main-journey {
+  background-image: url('../../public/Journey.png');
+  color: #fff;
+  text-align: center;
+  padding-top: 3.5rem;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 392px;
+}
+.main-journey h4 {font-size: 24px !important;}
+.journey-btn button{padding: 20px; border: none; border-radius: 10px; margin: 2.6rem 0;}
+.footer-bottom {margin-top: 6.875rem;}
+/* footer */
+.footer-title {font-size: 24px !important; font-weight: 600;}
+.footer-menu ul li{margin-bottom: 1rem; color: rgba(16, 16, 16, 0.6);}
+.social-logo {display: flex; justify-content: flex-end; gap: 20px;}
+
 @media (max-width: 1399px) {
   .bg-color-img {margin-top: 6.5rem;}
   .capnotrainer-box {position: relative; top: 0;}
   .main-content {padding-bottom: 0;}
   .main-all-logos {margin-top: 5rem;}
+  .capno-img {right: 25%;}
+  .capno-list {right: -30px;top: 40px;}
+  .main-journey {height: 350px;}
+}
+@media (max-width: 1199px) {
+.main-how {background-image :none} 
+.main-capno-img {position: relative;}
+.capno-img {position: relative; right: 0; top: 0;}
+.capno-list {right: 205px;}
+.exp-imgcontent {width: auto;}
+.imgofexpi img {width: 307px;}
+.thatcapno-content {height: auto;}
+.main-journey {padding-top: 1.5rem; color: #000; background-image:none}
+.logo-menu {text-align: center !important;}
+.social-logo {justify-content: center;}
 }
 
 @media (max-width: 991px) {
   .bg-color-img {display: none;}
   .sales-content {margin-top: 1rem;}
   .breathe-content {margin-top: 1.5rem !important;}
-  .main-all-logos {margin-top: 2.5.rem;}
+  .main-all-logos {margin-top: 2.5rem;}
+  .capno-img {display: none;}
+  .thatcapno-content p {width: auto;}
+  .capno-list {position: relative; right: 0; top: 0;}
+  .breathe2 {margin-left: 3rem;width: 200px; height: 60px;}
+  .imgofexpi img {width: 100%;}
+  .exp-imgcontent {position: relative; top: 0; margin-bottom: 1rem;}
+  .order2 {order: 2; margin: 0 auto;}
+  .diff-box {position: relative; left: 0; bottom: 0;}
+  .main-control img {display: none;}
+  .main-margintop {margin-top: 50px;}
+  h3 {font-size: 2rem !important;}
+  .footer-bottom {margin-top: 1.875rem;}
 }
 
 @media (max-width: 768px) {
@@ -127,8 +308,14 @@ h5 { font-family: "Nunito", sans-serif; font-size: 1rem !important; font-weight:
 @media (max-width: 575px) {
   .header { padding: 0px 1rem; }
   .color-button {padding: 8px 12px;}
-  .navbar-header img {
-    width: 170px;
-    height: 50px;
-  } 
+  .main-diff p {width: auto;}
+  .navbar-header img { width: 170px; height: 50px;} 
+  .journey-btn button {margin: 1rem 0 !important; padding: 10px;}
+  .order2 , .diff-breathe{display: none;}
+  .main-margintop { margin-top: 25px; }
+  h3 {font-size: 1.5rem !important;}
+}
+
+@media (max-width: 425px) {
+/* .footer {margin-top: 3rem;} */
 }
